@@ -1,4 +1,19 @@
-# Markdown 个人博客模板
+# 个人博客 · 爱嘤嘤嘤斯坦
+
+基于 [yejianqin61-cell/nice-template](https://github.com/yejianqin61-cell/nice-template) 的 Jekyll 个人博客，保留原模板的布局与 Markdown 写作方式。
+
+- 网站地址：<https://xujiao77.github.io/>（首次推送并部署成功后可访问）
+- 远程仓库：<https://github.com/xujiao77/xujiao77.github.io>
+- 发布记录：<https://github.com/xujiao77/xujiao77.github.io/actions>
+- 首次提交与后续发布步骤：[docs/PUBLISHING.md](docs/PUBLISHING.md)
+
+本地只需要 Git、GitHub CLI 和浏览器。Jekyll 构建由 GitHub Actions 完成；本地无需安装运行时或构建工具。
+
+首页与关于页使用名称“爱嘤嘤嘤斯坦”和简介“我希望你有一颗强大的心脏”，项目区展示“个人博客 / 个人日记”，样式使用马卡龙粉、薰衣草紫与薄荷绿。原示例文章暂时保留，未改写正文。
+
+以下保留原模板的使用说明。
+
+## 原模板说明
 
 这是一个不需要 Node.js、npm 或 React 的 Jekyll 静态博客模板。
 

@@ -1,10 +1,13 @@
-title: 你的名字 · 个人博客
-description: 一个可以持续写作的个人博客
+title: 爱嘤嘤嘤斯坦 · 个人博客
+description: 我希望你有一颗强大的心脏
 lang: zh-CN
-timezone: Asia/Singapore
+timezone: Asia/Shanghai
+url: https://xujiao77.github.io
+baseurl: ""
 markdown: kramdown
 permalink: /posts/:title/
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - docs

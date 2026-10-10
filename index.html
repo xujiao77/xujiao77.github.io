@@ -4,14 +4,14 @@ layout: default
 <section id="top" class="wrap hero" aria-labelledby="hero-title">
   <div>
     <p class="eyebrow">Personal blog · {{ 'now' | date: '%Y' }}</p>
-    <h1 id="hero-title">你好，我是<br>{{ site.title | split: '·' | first }}。</h1>
-    <p class="hero-copy">我在这里记录正在学习的东西、做过的小项目，以及一些不想忘记的想法。</p>
+    <h1 id="hero-title">你好，我是<br>{{ site.title | split: '·' | first | strip }}。</h1>
+    <p class="hero-copy">{{ site.description }}</p>
     <div class="hero-actions">
       <a class="button primary" href="#writing">读读我的文章</a>
-      <a class="button secondary" href="mailto:hello@example.com">给我发邮件</a>
+      <a class="button secondary" href="https://github.com/xujiao77">我的 GitHub</a>
     </div>
   </div>
-  <div class="hero-card" aria-label="个人头像占位图"><div class="avatar">YN</div></div>
+  <div class="hero-card" aria-label="爱嘤嘤嘤斯坦的文字头像"><div class="avatar">嘤</div></div>
 </section>
 
 <section id="writing" class="wrap section" aria-labelledby="writing-title">
@@ -29,10 +29,8 @@ layout: default
 </section>
 
 <section id="projects" class="wrap section" aria-labelledby="projects-title">
-  <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="projects-title">做过的小项目</h2><div class="rule"></div></div><p>项目内容仍然直接写在这个页面里，适合首节先改文字和链接。</p></div>
+  <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="projects-title">做过的小项目</h2><div class="rule"></div></div></div>
   <div class="project-grid">
-    <article class="card"><div class="card-meta">PROJECT 01</div><h3>校园活动页面</h3><p>为一次活动制作的静态介绍页，练习了布局和信息层级。</p><a class="card-link" href="#">查看项目 →</a></article>
-    <article class="card"><div class="card-meta">PROJECT 02</div><h3>我的学习清单</h3><p>一个帮助自己整理课程、目标和阅读记录的小工具。</p><a class="card-link" href="#">查看项目 →</a></article>
-    <article class="card"><div class="card-meta">PROJECT 03</div><h3>正在进行中</h3><p>这里可以放一个还没完成、但值得继续记录的想法。</p><a class="card-link" href="#">了解更多 →</a></article>
+    <article class="card"><div class="card-meta">PROJECT 01</div><h3>个人博客</h3><p>个人日记</p><a class="card-link" href="{{ '/' | relative_url }}#writing">阅读日记 →</a></article>
   </div>
 </section>
